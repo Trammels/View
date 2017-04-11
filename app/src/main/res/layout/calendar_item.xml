@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="#FFFFFF"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="10dp"
+  android:orientation="horizontal">
+  <RelativeLayout 
+      android:id="@+id/ll_threeItems"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical|left"
+      android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_shiftType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:textSize="18dp"
+            android:layout_marginLeft="2dp"  />
+        
+        <TextView
+            android:id="@+id/tv_plateNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_shiftType"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="2dp"  />
+        
+         <TextView
+            android:id="@+id/tv_areaName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_plateNo"
+            android:text=""
+            android:textSize="14dp"
+            android:layout_marginLeft="2dp" />
+      
+  </RelativeLayout>
+ 
+  <TextView
+	  android:layout_gravity="center_vertical|right"
+	  android:layout_width="35dp"
+	  android:layout_height="86dp"
+	  android:layout_alignParentRight="true"
+	  android:id="@+id/tvtext"
+	  />
+</RelativeLayout>
